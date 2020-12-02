@@ -1,0 +1,65 @@
+[class="menu"]{
+    font-family: "IBM_Plex_Serif"; 
+    }
+[class="menuitem"]{
+    background: url(beige-tiles.png)no-repeat;
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    font-family: "IBM_Plex_Serif"; 
+    }
+[class="mainpage"]{
+    background: url(geometric.jpg)no-repeat;
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    font-family: "IBM_Plex_Serif"; 
+    }
+    ul {
+        list-style: none; /*убираем маркеры списка*/
+        margin: 0; /*убираем отступы*/
+        padding-left: 0; /*убираем отступы*/
+        margin-top:25px; /*делаем отступ сверху*/
+        background:#000000; /*добавляем фон всему меню*/
+        height: 50px; /*задаем высоту*/
+      }
+      a {
+        text-decoration: none; /*убираем подчеркивание текста ссылок*/
+        background:#000000; /*добавляем фон к пункту меню*/
+        color:#fff; /*меняем цвет ссылок*/
+        padding:0px 15px; /*добавляем отступ*/
+        font-family: arial; /*меняем шрифт*/
+        line-height:50px; /*ровняем меню по вертикали*/
+        display: block; 
+        border-right: 1px solid#808080; /*добавляем бордюр справа*/
+        -webkit-transition: all 0.3s 0.01s ease;
+        -moz-transition: all 0.3s 0.01s ease;
+        -o-transition: all 0.3s0.01s ease;
+        transition: all 0.3s 0.01s ease;
+
+      
+      }
+      a:hover {
+        background:#808080;/*добавляем эффект при наведении*/
+      }
+      li {
+        float:left; /*Размещаем список горизонтально для реализации меню*/
+      }
+      #pic {
+        float: left; /* Обтекание картинки текстом */
+       }
+       #text {
+        margin-left: 110px; /* Отступ от левого края */
+       }
+footer{
+    color:blue;
+    font-style:italic;
+}
+@font-face {
+font-family: "IBM_Plex_Serif"; 
+src: url("IBMPlexSerif-Medium.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+} 
+
+      
