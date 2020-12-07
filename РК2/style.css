@@ -1,0 +1,44 @@
+    .main{
+        background: url(watercolor.png)no-repeat;
+        -moz-background-size: 100%;
+        -webkit-background-size: 100%;
+        background-size: 100%;
+        font-family: "CormorantGaramond"; 
+        }
+    .footer{
+        color:blue;
+        font-style:italic;
+    }
+    .comps_table {
+        color: white; /* Цвет символа */
+        font-size: 200%; /* Размер шрифта */
+        border-collapse: collapse;
+    }
+    .comps_table th{
+        font-weight: normal;
+        color: #039;
+        border-bottom: 2px solid  #039;
+        padding: 10px 8px;
+    }
+    .comps_table td {
+        color: white;
+        padding: 9px 8px;
+      }
+    .comps_list { 
+        list-style: upper-alpha; 
+        font-size: 200%;
+        color: black;
+    }
+    .comps_list li:nth-of-type(odd){ 
+        background-color: #F5DEB3;
+    }
+    .comps_list li:nth-child(even){ 
+        background-color: #87CEEB;
+    }
+
+    @font-face {
+        font-family: "CormorantGaramond"; 
+        src: url("CormorantGaramond-Medium.ttf") format("truetype"); 
+        font-style: normal; 
+        font-weight: normal; 
+        } 
