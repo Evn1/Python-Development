@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}Список смартфонов{% endblock %}
+
+{% block content %}
+    <h1 style="text-align: center; color: #a51111;">Список смартфонов</h1>
+    {% if articles_list %}
+        <ol type="I" style="margin-left: 46%; font-size: 14pt;">
+        {% for a in articles_list %}
+            <li><a href="{% url 'articles:detail' a.id %}">{{a.name }}</a></li>
+        {% endfor %}
+        </ol>
+    {% else %}
+        Статьи не найдены
+    {% endif %}
+
+{% endblock %}
