@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+        <title>Лабораторная работа №5</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+    <body class="menuitem" style="background-attachment:fixed" topmargin="0">
+        <header> 
+            <h1 align="center">Анкета</h1>
+        </header>
+
+        <main>
+            <form action="#" method="get">
+                <div>
+                    <p>Имя</p>
+                    <input tabindex="1" name="username" type="text"/>
+                </div>
+                <div>
+                    <p>Телефон</p>
+                    <input tabindex="2" name="userphone" type="tel"/>
+                </div>
+                <div>
+                    <p>Пол</p>
+                    <div>
+                        <input tabindex="3" checked type="radio" name="sex" value="male"/> Мужской
+                    </div>
+                    <div>
+                        <input tabindex="3" type="radio" name="sex" value="female"/> Женский
+                    </div>
+                </div>
+                <div>
+                    <p>В каком вузе вы училсь ?</p>
+                    <textarea tabindex="3" name="education"></textarea>
+                </div>
+                <div>
+                    <p>С какими технологиями программирования вы работали ?</p>
+                    <div>
+                        <input tabindex="4" type="radio" name="pl" value="Yes"/> Другое
+                        <div>
+                            <textarea tabindex="4" name="lang"></textarea>
+                        </div>
+                    </div>
+                    <div>
+                        <input tabindex="4" checked type="radio" name="pl" value="No"/> Никакие
+                    </div>
+                </div>
+                <div>
+                    <p>С какими веб-технологиями вы работали ?</p>
+                    <div>
+                        <input tabindex="5" type="checkbox" name="web" value="HTML"/> HTML
+                    </div>
+                    <div>
+                        <input tabindex="6" type="checkbox" name="web" value="CSS"/> CSS
+                    </div>
+                    <div>
+                        <input tabindex="7" type="checkbox" name="web" value="Flash"/> Flash
+                    </div>
+                    <div>
+                        <input tabindex="8" type="checkbox" name="web" value="other"/> Другое
+                        <div>
+                            <textarea tabindex="8" name="web_text"></textarea>
+                        </div>
+                    </div>
+                    <div>
+                        <input tabindex="9" checked type="checkbox" name="web" value="No"/> Никакие
+                    </div>
+                </div>
+                <div>
+                    <p>С какими технологиями программирования вы работали ?</p>
+                    <div>
+                        <input tabindex="10" type="checkbox" name="tech" value="interface"/> Разраюотка пользовательского интерфейса
+                    </div>
+                    <div>
+                        <input tabindex="11" type="checkbox" name="tech" value="func_class"/> Разработка библиотек функций или классов
+                    </div>
+                    <div>
+                        <input tabindex="12" type="checkbox" name="tech" value="interaction"/> Проектирование интерфейсов взаимодействия
+                    </div>
+                    <div>
+                        <input tabindex="13" type="checkbox" name="tech" value="db"/> Проектирования баз данных
+                    </div>
+                    <div>
+                        <input tabindex="14" type="checkbox" name="tech" value="test"/> Тестирование программ
+                    </div>
+                    <div>
+                        <input tabindex="15" type="checkbox" name="tech" value="other"/> Другое
+                        <div>
+                            <textarea tabindex="15" name="web_text"></textarea>
+                        </div>
+                    </div>
+                    <div>
+                        <input tabindex="16" checked type="checkbox" name="tech" value="No"/> Никакие
+                    </div>
+                </div>
+                <div>
+                    <p>Прикрепить фото</p>
+                    <input tabindex="17" type='file' name="userphoto"/>
+                </div>
+                <div>
+                    <p>Укажите, какой стиль работы Вы предпочитаете при работе программистом</p>
+                    <select tabindex="18" name="style">
+                        <option value="individual">Индивидуальная работа</option>
+                        <option value="collective">Коллективная работа</option>
+                        <option selected value="nevermind">Неважно</option>
+                    </select>
+                </div>
+                <div>
+                    <p>Действия</p>
+                    <button type="submit">Отправить</button>
+                </div>
+            </form>
+        </main>
+	</body>
+</html>
