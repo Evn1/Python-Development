@@ -1,0 +1,31 @@
+{% extends 'accounts/main.html'%}
+{% block content %}
+
+    <div class="row">
+			<div class="col-md">
+				<div class="card card-body">
+					<h5>Информация о курсах</h5>
+					<table class="table table-striped">
+					  <thead>
+						<tr>
+						  	<th>Название курса</th>
+							<th>Количество часов</th>
+							<th>Расписание</th>
+                            <th>Категория</th>
+						</tr>
+					  </thead>
+					  <tbody>
+					  {% for i in courses %}
+							<tr>
+								<td>{{i.name}}</td>
+								<td>{{i.number_of_hours}}</td>
+								<td>{{i.schedule}}</td>
+								<td>{{i.category}}</td>
+							</tr>
+						{% endfor %}
+					  </tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+{% endblock %}

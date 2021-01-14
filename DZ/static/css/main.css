@@ -1,0 +1,20 @@
+#logo{
+		}
+
+		body{
+			background-color: #ebeff5;
+		}
+
+
+		#total-courses{
+			background-color: #98FB98;
+		}
+
+
+		#active-courses{
+			background-color: #00FA9A;
+		}
+
+		#inactive-courses{
+			background-color: #3CB371;
+		}
